@@ -9,21 +9,22 @@ Este repositório contém a API backend para o projeto Instabytes, desenvolvida 
 - CRUD de posts com MongoDB.
 
 ## Estrutura do Projeto
-src/\
-├── config/\
-│ └── dbConfig.js  # Configuração da conexão com o MongoDB\
-├── controllers/\
-│ └── postsController.js # Lógica dos endpoints de posts\
-├── models/\
-│ └── postsModel.js # Schema e funções do banco de dados\
-├── routes/\
-│ └── postsRoutes.js # Definição das rotas da API\
-├── services/\
-│ └── geminiService.js # Integração com a API Gemini\
-├── uploads/ # Imagens enviadas pelos usuários\
-└── server.js # Inicialização do servidor Express\
-
-
+```
+.
+├──src/
+│  ├── config/
+│  │   └── dbConfig.js              # Configuração da conexão com o MongoDB
+│  ├── controllers/
+│  │   └── postsController.js       # Lógica dos endpoints de posts
+│  ├── models/
+│  │   └── postsModel.js            # Schema e funções do banco de dados
+│  ├── routes/
+│  │   └── postsRoutes.js           # Definição das rotas da API
+│  └── services/
+│      └── geminiService.js         # Integração com a API Gemini
+├── uploads/                        # Imagens enviadas pelos usuários
+└── server.js                       # Inicialização do servidor Express
+```
 ## Requisitos
 
 - Node.js >= 14
